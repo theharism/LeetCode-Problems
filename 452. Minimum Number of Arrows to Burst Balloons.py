@@ -1,5 +1,3 @@
-import numpy as np
-
 class Solution(object):
     def findMinArrowShots(self, points):
         """
