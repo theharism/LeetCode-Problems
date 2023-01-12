@@ -4,7 +4,7 @@ public:
     int dfs(vector<bool>& hasApple,int node,int d,int prev)
     {
         int result=0,temp;
-        for(int &i:adjList[node])
+        for(int &i : adjList[node])
 	    if(i!=prev)
 	    {
 	        temp=dfs(hasApple,i,d+1,node);
